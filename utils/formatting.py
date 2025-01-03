@@ -18,7 +18,7 @@ def format_project():
     """, unsafe_allow_html=True)
 
 def intro():
-    heading = Image.open("D:\py\demo-plant disease\\assets\\title-greenheart.png")
+    heading = Image.open("assets/title-greenheart.png")
     st.image(heading)
 
     st.write("""
@@ -34,5 +34,5 @@ def intro():
     """)
 
 def outro():
-    heading = Image.open("D:\py\demo-plant disease\\assets\\thankyou.png")
+    heading = Image.open("assets/thankyou.png")
     st.image(heading)
