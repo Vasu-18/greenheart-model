@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 def display_uploaded_image(image):
-    st.image(image, caption="Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_container_width=True)
 
 def format_project():
     st.markdown("""
