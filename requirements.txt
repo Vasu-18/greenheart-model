@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 streamlit
-opencv-python-headless
+opencv-python
 scikit-learn
 torch
 google-generativeai
