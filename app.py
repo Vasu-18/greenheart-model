@@ -1,9 +1,10 @@
+# app.py (modify the imports)
 import streamlit as st
 import numpy as np
-from utils import *
+import cv2  # Move cv2 import before local modules
 import tempfile
 import os
-import cv2
+from utils import *  # Keep this last
 
 def sidebar_navigation():
     st.sidebar.image("assets/Logo.png", use_container_width=True)
