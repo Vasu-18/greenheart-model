@@ -1,11 +1,10 @@
-# requirements.txt
-numpy==1.26.4
-pandas==2.1.4
-streamlit==1.32.0
-opencv-python-headless==4.9.0.80
-torch==2.2.1
-ultralytics==8.1.24
-google-generativeai==0.3.2
-python-dotenv==1.0.1
-scikit-learn==1.4.1.post1
-matplotlib==3.8.2
+numpy
+pandas
+matplotlib
+streamlit
+opencv-python-headless
+scikit-learn
+torch
+google-generativeai
+python-dotenv
+ultralytics
